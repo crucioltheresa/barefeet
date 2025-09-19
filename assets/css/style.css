@@ -9,6 +9,64 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #0F5656;
+    color: #EFEFE7;
+    background-color: #0F5656;
     font-family: 'Times New Roman', Times, serif
+}
+
+a {
+    text-decoration: none;
+    color: #EFEFE7;
+}
+
+header {
+    display: flex;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#logo img {
+    height: 100px;
+    margin: 10px;
+}
+
+#menu {
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 5px;
+}
+
+#menu li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #EFEFE7;
+}
+
+nav {
+    position: absolute;
+    background-color: inherit;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+    top: 100%
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    font-size: 3rem;
 }
