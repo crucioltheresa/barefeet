@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #EFEFE7;
-    background-color: #0F5656;
+    background-color: #510502;
     font-family: 'Times New Roman', Times, serif
 }
 
@@ -21,7 +21,7 @@ a {
 }
 
 header {
-    background-color: #0F5656;
+    background-color: #510502;
     display: flex;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -52,7 +52,7 @@ header {
 
 nav {
     position: absolute;
-    background-color: rgba(15, 86, 86, 0.7);
+    background-color: rgba(81, 5, 2, 0.7);
     width: 100%;
     left: 0;
     padding: 10px 16px;
@@ -81,23 +81,19 @@ main {
 }
 
 #hero {
-    position: relative;
-    max-height: 630px;
-}
-
-#hero video {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 500px;
+    width: 100vw;
+    background: url('../images/hero-img.jpg') no-repeat center center/cover;
 }
 
 .light-bg {
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: #EFEFE7;
-    color: #0F5656;
+    color: #510502;
 }
 
 #classes {
+    margin-top: 30px;
     padding: 20px;
 }
 
