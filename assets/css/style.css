@@ -26,7 +26,7 @@ header {
     width: 100%;
     z-index: 99;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 #logo img {
@@ -50,10 +50,10 @@ header {
 
 nav {
     position: absolute;
-    background-color: inherit;
+    background-color: rgba(239, 239, 231, 0.7);
     width: 100%;
     left: 0;
-    padding: 0 1rem;
+    padding: 10px 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: none;
     top: 100%
@@ -67,6 +67,8 @@ nav {
     display: none;
 }
 
-#nav-toggle-label {
-    font-size: 3rem;
+.nav-toggle-label {
+    font-size: 2rem;
+    padding-right: 2rem;
+    color: #EFEFE7;
 }
