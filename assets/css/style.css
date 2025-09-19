@@ -82,8 +82,12 @@ main {
 
 #hero {
     height: 500px;
-    width: 100vw;
     background: url('../images/hero-img.jpg') no-repeat center center/cover;
+}
+
+#hero img {
+    width: 100vw;
+
 }
 
 .light-bg {
@@ -93,20 +97,14 @@ main {
 }
 
 #classes {
-    margin-top: 30px;
+    margin-top: 5px;
     padding: 20px;
-}
-
-#table-title {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 1.5rem;
-    font-weight: bold;
 }
 
 table {
     border-collapse: collapse;
     width: 100%;
+    font-style: italic;
 }
 
 th,
@@ -120,4 +118,38 @@ td {
 
 th {
     color: #A59759;
+}
+
+#events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+h2,
+caption {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #A59759;
+    text-transform: uppercase;
+}
+
+.event-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.event-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    margin-right: 20px
 }
