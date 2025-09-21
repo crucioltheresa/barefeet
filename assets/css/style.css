@@ -59,7 +59,7 @@ header {
 nav {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.7);
-    width: 100vw;
+    width: 100%;
     left: 0;
     padding: 10px 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -95,7 +95,7 @@ h2 {
 }
 
 #hero-img {
-    width: 350px;
+    width: 100vw;
     height: 350px;
     background: url('../images/hero-img.png') no-repeat top center/cover;
     filter: grayscale(100%);
@@ -131,7 +131,7 @@ input[type="submit"]:hover {
 }
 
 #about-img {
-    width: 350px;
+    width: 100vw;
     height: 170px;
     background: url('../images/card-2.png') no-repeat top center/cover;
     filter: grayscale(100%);
@@ -167,7 +167,7 @@ hr {
 }
 
 #join-img {
-    width: 350px;
+    width: 100vw;
     height: 580px;
     background: url('../images/card-3.png') no-repeat top center/cover;
     filter: grayscale(100%);
