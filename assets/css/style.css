@@ -16,7 +16,7 @@ body {
     background-color: #000000;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 100;
 }
 
 a {
@@ -52,7 +52,7 @@ header {
 }
 
 .active {
-    border-bottom: 1px solid #EFEFE7;
+    border-bottom: 1px solid #A59759;
 }
 
 nav {
@@ -89,10 +89,33 @@ h1 {
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 500;
+    letter-spacing: 1.5px;
 }
 
 #hero-img {
-    height: 400px;
-    width: 100%;
-    background: url('assets/images/hero-img.jpg') no-repeat center center/cover;
+    width: 350px;
+    height: 350px;
+    background: url('../images/hero-img.png') no-repeat top center/cover;
+    filter: grayscale(100%);
+}
+
+#hero-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -90px;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    padding: 10px 16px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #A59759;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    margin-top: 10px;
 }
