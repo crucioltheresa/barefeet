@@ -1,0 +1,24 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* CSS Variables */
+:root {
+    --color-background: #000000;
+    /* Black background */
+    --color-highlight: #A59759;
+    /* Gold highlight */
+    --color-text: #FFFFFF;
+    /* White text */
+    --font-family: 'Inter', sans-serif;
+    --font-size: 16px;
+}
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+}
