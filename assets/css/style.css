@@ -124,6 +124,12 @@ h2 {
     padding: 10px 16px;
 }
 
+/*Event Cards*/
+
+
+
+/* Media Queries */
+
 @media screen and (min-width: 768px) {
     #hero-sm {
         display: none;
