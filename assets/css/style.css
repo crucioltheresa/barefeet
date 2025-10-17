@@ -44,7 +44,7 @@ h2 {
 }
 
 .sub-heading {
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: var(--color-highlight);
     margin-top: 10px;
 }
@@ -113,21 +113,11 @@ h2 {
     filter: grayscale(100%);
 }
 
-/* #hero-content {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: -90px;
-    align-items: flex-start;
-    gap: 10px;
-    text-align: left;
-    padding: 10px 16px;
-} */
-
-/*Event Cards*/
-.grayscale {
-    filter: grayscale(100%);
+/* Class Schedule Table Styles */
+.instructor {
+    display: none;
 }
+
 
 
 /* Media Queries */
@@ -139,5 +129,12 @@ h2 {
 
     #hero-md {
         display: block;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .instructor {
+        display: table-cell;
     }
 }

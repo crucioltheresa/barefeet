@@ -35,19 +35,19 @@ column and set a minimum height to stretch the page body to the full height of t
                         <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Classes</a>
+                        <a class="nav-link" href="index.html#classes">Classes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Events</a>
+                        <a class="nav-link" href="index.html#events">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="index.html#about-us">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="galery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="index.html#contact">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -67,7 +67,7 @@ column and set a minimum height to stretch the page body to the full height of t
         <div id="header">
             <div id="hero-sm"></div>
             <div id="hero-md"></div>
-            <div id="hero-content" class="align-items-start text-start p-3 mb-4">
+            <div id="hero-content" class="d-flex flex-column align-items-start text-start p-3">
                 <h1 class="fw-medium">Where Dreams Find Rhythm</h1>
                 <p class="fw-lighter">Welcome to Barefeet Dance Company & School, where the timeless art of belly
                     dance
@@ -80,9 +80,9 @@ column and set a minimum height to stretch the page body to the full height of t
 
     <!-- Main Content -->
     <main>
-        <section class="container">
+        <section id="about-us" class="container section">
             <div class="row">
-                <div class="col-md-6 mt-5">
+                <div class="col-md-6">
                     <img src="assets/images/about-us-md.jpg" alt="About Us Image" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column align-items-end text-end">
@@ -96,9 +96,9 @@ column and set a minimum height to stretch the page body to the full height of t
                 </div>
             </div>
         </section>
-        <section class="container">
+        <section id="events" class="container section">
             <!-- Events Section With Carousel -->
-            <div class="col-12 col-xl-6 mt-4">
+            <div class="col-12 col-xl-6">
                 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -158,6 +158,74 @@ column and set a minimum height to stretch the page body to the full height of t
                 </div>
             </div>
         </section>
+        <section id="classes" class="container section">
+            <div class="row">
+                <div class="col-md-6 d-flex flex-column align-items-start text-start">
+                    <span class="sub-heading fw-light text-uppercase">Our Classes</span>
+                    <h2 class="fw-medium col-8 py-2">DANCE CLASSES FOR ALL LEVELS</h2>
+                    <p class="fw-lighter">Whether you're a beginner eager to learn the basics or an experienced dancer
+                        looking to refine your skills, our classes are designed to cater to all levels. Join us and
+                        embark on a transformative journey through the art of belly dance.</p>
+                </div>
+                <div id="table" class="col-12 col-md-6 col-xl-4 mt-4">
+                    <table class="table table-dark table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Class</th>
+                                <th scope="col">Day</th>
+                                <th scope="col">Time</th>
+                                <th scope="col" class="instructor">Instructor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">Begginer</th>
+                                <td>Mondays</td>
+                                <td>6:00pm</td>
+                                <td class="instructor">Marina</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Intermediate</th>
+                                <td>Mondays</td>
+                                <td>8:00pm</td>
+                                <td class="instructor">Jessica</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Reharsal</th>
+                                <td>Tuesdays</td>
+                                <td>5:30pm</td>
+                                <td class="instructor">Barbara</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Advanced</th>
+                                <td>Wednesdays</td>
+                                <td>7:00pm</td>
+                                <td class="instructor">Barbara</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Intermediate</th>
+                                <td>Thursdays</td>
+                                <td>6:00pm</td>
+                                <td class="instructor">Jessica</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Begginer</th>
+                                <td>Thursdays</td>
+                                <td>8:00pm</td>
+                                <td class="instructor">Crisdra</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Reharsal</th>
+                                <td>Fridays</td>
+                                <td>5:30pm</td>
+                                <td class="instructor">Barbara</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
     </main>
 
 
