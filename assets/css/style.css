@@ -101,8 +101,8 @@ h2 {
 #hero-sm {
     width: 100vw;
     height: 350px;
-    background: url('../images/hero-sm.png') no-repeat top center/cover;
-    filter: grayscale(100%);
+    background: url('../images/hero-md.jpg') no-repeat top center/cover;
+    /* filter: grayscale(100%); */
 }
 
 #hero-md {
@@ -113,7 +113,7 @@ h2 {
     filter: grayscale(100%);
 }
 
-#hero-content {
+/* #hero-content {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -122,7 +122,7 @@ h2 {
     gap: 10px;
     text-align: left;
     padding: 10px 16px;
-}
+} */
 
 /*Event Cards*/
 .grayscale {
