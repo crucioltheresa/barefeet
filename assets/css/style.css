@@ -103,15 +103,6 @@ h2 {
     width: 100vw;
     height: 350px;
     background: url('../images/hero-md.jpg') no-repeat top center/cover;
-    /* filter: grayscale(100%); */
-}
-
-#hero-md {
-    display: none;
-    width: 100vw;
-    height: 500px;
-    background: url('../images/hero-md.jpg') no-repeat top center/cover;
-    filter: grayscale(100%);
 }
 
 /* Class Schedule Table Styles */
@@ -119,13 +110,14 @@ h2 {
     display: none;
 }
 
-#table .table-dark * {
+#table table-dark * {
     background-color: transparent;
 }
 
 #table thead th {
     color: var(--color-highlight);
 }
+
 
 /* Footer Styles*/
 #footer li {
@@ -134,17 +126,12 @@ h2 {
 
 
 /* Media Queries */
-
-@media screen and (min-width: 768px) {
-    #hero-sm {
-        display: none;
+@media screen and (min-width:768px) {
+    .section {
+        padding-top: 4rem;
     }
-
-    #hero-md {
-        display: block;
-    }
-
 }
+
 
 @media screen and (min-width: 1024px) {
     .instructor {
