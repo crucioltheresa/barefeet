@@ -38,6 +38,7 @@ h2 {
     letter-spacing: 1.2px;
 }
 
+
 .section {
     padding-top: 6rem;
     /* prevent navbar overlap */
@@ -118,6 +119,10 @@ h2 {
     display: none;
 }
 
+/* Footer Styles*/
+#footer li {
+    color: var(--color-text);
+}
 
 
 /* Media Queries */
