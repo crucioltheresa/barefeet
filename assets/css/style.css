@@ -119,6 +119,14 @@ h2 {
     display: none;
 }
 
+#table .table-dark * {
+    background-color: transparent;
+}
+
+#table thead th {
+    color: var(--color-highlight);
+}
+
 /* Footer Styles*/
 #footer li {
     color: var(--color-text);
