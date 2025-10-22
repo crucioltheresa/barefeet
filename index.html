@@ -63,28 +63,26 @@ column and set a minimum height to stretch the page body to the full height of t
     </nav>
 
     <!-- Hero Section -->
-    <header class="d-flex align-items-center text-center section">
-        <div id="header">
-            <div id="hero-sm"></div>
-            <div id="hero-content" class="d-flex flex-column align-items-start text-start p-3">
-                <h1 class="fw-medium">Where Dreams Find Rhythm</h1>
-                <p class="fw-lighter">Welcome to Barefeet Dance Company & School, where the timeless art of belly
-                    dance
-                    is celebrated with grace and passion.
-                    Step into a world where every movement is poetry and every dancer becomes a masterpiece.</p>
-                <a class="btn btn-custom me-3" href="booking.html">Book Your Trial Class</a>
-            </div>
+    <header id="header" class="container justify-content-between text-center section mb-5">
+        <img src="assets/images/hero-md.jpg" alt="bellydancers performing" class="img-fluid">
+        <div class="d-flex flex-column align-items-start text-start p-3">
+            <h1 class="fw-medium">Where Dreams Find Rhythm</h1>
+            <p class="fw-lighter">Welcome to Barefeet Dance Company & School, where the timeless art of belly
+                dance
+                is celebrated with grace and passion.
+                Step into a world where every movement is poetry and every dancer becomes a masterpiece.</p>
+            <a class="btn btn-custom me-3" href="booking.html">Book Your Trial Class</a>
         </div>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section id="about-us" class="container section">
-            <div class="row">
-                <div class="col-md-6">
+        <section id="about-us" class="container">
+            <div class="row flex-md-row-reverse">
+                <div class="col-md-6 align-content-center">
                     <img src="assets/images/about-us.jpg" alt="belly dancers performing" class="img-fluid">
                 </div>
-                <div class="col-md-6 d-flex flex-column align-items-end text-end">
+                <div id="about-us-content" class="col-md-6 d-flex flex-column align-items-end text-end">
                     <span class="sub-heading fw-light text-uppercase">About Us</span>
                     <h2 class="fw-medium col-8 py-2">WHERE LATINO AMERICA MEETS MIDDLE EAST</h2>
                     <p class="fw-lighter">At Barefeet, we celebrate diversity, culture, and art,
@@ -119,14 +117,14 @@ column and set a minimum height to stretch the page body to the full height of t
             </div>
         </section>
         <section id="events" class="container section">
-            <div class="col-md-6 d-flex flex-column align-items-start text-start">
+            <div class="col-12 d-flex flex-column align-items-start text-start">
                 <span class="sub-heading fw-light text-uppercase mb-2">Events</span>
                 <!-- Events Section With Carousel -->
-                <div class="col-12 col-xl-6">
+                <div class="col-12">
                     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <div class="card text-bg-dark mb-4" style="width: 19rem; margin: auto;">
+                                <div class="card text-bg-dark mb-4 card-size ">
                                     <img src="assets/images/event-1.jpg" class="card-img-top "
                                         alt="belly dance ballarina performing">
                                     <div class="card-body">
@@ -140,7 +138,7 @@ column and set a minimum height to stretch the page body to the full height of t
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="card text-bg-dark mb-4" style="width: 19rem; margin: auto;">
+                                <div class="card text-bg-dark mb-4 card-size ">
                                     <img src="assets/images/event-2.jpg" class="card-img-top "
                                         alt="belly dance ballarina performing">
                                     <div class="card-body">
@@ -154,7 +152,7 @@ column and set a minimum height to stretch the page body to the full height of t
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <div class="card text-bg-dark mb-4" style="width: 19rem; margin: auto;">
+                                <div class="card text-bg-dark mb-4 card-size ">
                                     <img src="assets/images/event-4.jpg" class="card-img-top "
                                         alt="belly dance ballarina performing">
                                     <div class="card-body">
@@ -189,73 +187,74 @@ column and set a minimum height to stretch the page body to the full height of t
             </div>
         </section>
         <section id="classes" class="container section">
-            <div class="row">
-                <div class="col-md-6">
+            <div class=" row flex-md-row-reverse">
+                <div class="col-md-6 align-content-center">
                     <img src="assets/images/classes.jpg" alt="belly dancers performing" class="img-fluid">
                 </div>
                 <div class="col-md-6 d-flex flex-column align-items-end text-end">
                     <span class="sub-heading fw-light text-uppercase">Our Classes</span>
                     <h2 class="fw-medium col-8 py-2">DANCE CLASSES FOR ALL LEVELS</h2>
-                    <p class="fw-lighter">Whether you're a beginner eager to learn the basics or an experienced dancer
+                    <p class="fw-lighter">Whether you're a beginner eager to learn the basics or an experienced
+                        dancer
                         looking to refine your skills, our classes are designed to cater to all levels. Join us and
                         embark on a transformative journey through the art of belly dance.</p>
                 </div>
-                <div id="table" class="col-12 col-md-6 col-xl-4 mt-4">
-                    <table class="table table-dark table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">Class</th>
-                                <th scope="col">Day</th>
-                                <th scope="col">Time</th>
-                                <th scope="col" class="instructor">Instructor</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row">Begginer</th>
-                                <td>Mondays</td>
-                                <td>6:00pm</td>
-                                <td class="instructor">Marina</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Intermediate</th>
-                                <td>Mondays</td>
-                                <td>8:00pm</td>
-                                <td class="instructor">Jessica</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Reharsal</th>
-                                <td>Tuesdays</td>
-                                <td>5:30pm</td>
-                                <td class="instructor">Barbara</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Advanced</th>
-                                <td>Wednesdays</td>
-                                <td>7:00pm</td>
-                                <td class="instructor">Barbara</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Intermediate</th>
-                                <td>Thursdays</td>
-                                <td>6:00pm</td>
-                                <td class="instructor">Jessica</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Begginer</th>
-                                <td>Thursdays</td>
-                                <td>8:00pm</td>
-                                <td class="instructor">Crisdra</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">Reharsal</th>
-                                <td>Fridays</td>
-                                <td>5:30pm</td>
-                                <td class="instructor">Barbara</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            </div>
+            <div id="table" class="col-12 col-xl-4 mt-4 ">
+                <table class="table table-dark table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Class</th>
+                            <th scope="col">Day</th>
+                            <th scope="col">Time</th>
+                            <th scope="col" class="instructor">Instructor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Begginer</th>
+                            <td>Mondays</td>
+                            <td>6:00pm</td>
+                            <td class="instructor">Marina</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Intermediate</th>
+                            <td>Mondays</td>
+                            <td>8:00pm</td>
+                            <td class="instructor">Jessica</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Reharsal</th>
+                            <td>Tuesdays</td>
+                            <td>5:30pm</td>
+                            <td class="instructor">Barbara</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Advanced</th>
+                            <td>Wednesdays</td>
+                            <td>7:00pm</td>
+                            <td class="instructor">Barbara</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Intermediate</th>
+                            <td>Thursdays</td>
+                            <td>6:00pm</td>
+                            <td class="instructor">Jessica</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Begginer</th>
+                            <td>Thursdays</td>
+                            <td>8:00pm</td>
+                            <td class="instructor">Crisdra</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Reharsal</th>
+                            <td>Fridays</td>
+                            <td>5:30pm</td>
+                            <td class="instructor">Barbara</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
     </main>
