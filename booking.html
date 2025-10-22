@@ -61,10 +61,41 @@ column and set a minimum height to stretch the page body to the full height of t
         </div>
     </nav>
 
-    <main></main>
+    <main>
+        <div class="col-lg-8 col-md-10 container section mt-3 mb-3">
+            <h2 class="text-center mb-3">Book Your First Free Belly Dance Class!</h2>
+            <p class="text-center mb-4">Discover the art, connection, and empowerment with Barefeet. Please
+                fill out
+                the form below to schedule your free trial.</p>
+            <form class="row g-3" action="success.html" method="GET">
+                <div class="col-12">
+                    <label for="inputName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control bg-dark text-white border-0" id="inputName" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control bg-dark text-white border-0" id="inputEmail" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="selectLevel" class="form-label">Your Current Experience Level</label>
+                    <select name="selectLevel" id="selectLevel" class="form-select bg-dark text-white border-0"
+                        required>
+                        <option value="" disabled selected>Choose the level that best describes you...</option>
+                        <option value="beginner">Beginner (Never danced before)</option>
+                        <option value="basic">Basic (Some previous classes/workshops)</option>
+                        <option value="intermediate">Intermediate (Know basic movements and technique)</option>
+                        <option value="advanced">Advanced (Regular dancer or performer)</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-custom">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </main>
 
     <!-- Footer / Contact Section -->
-    <footer id="contact" class="bg-dark container py-1 my-2">
+    <footer id="contact" class="bg-dark container py-1 my-2 mt-auto">
         <ul class="d-flex flex-wrap text-center list-unstyled py-3 my-4  ">
             <li class="col-12"><a href="https://maps.app.goo.gl/kvWGoaCndcpwsAD67" target="_blank"></a>Mind The Step
                 Cafe -
