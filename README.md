@@ -61,8 +61,8 @@ This project is built around providing clear paths for both students and clients
 
     
 - **Gallery Page (gallery.html)**
-- This dedicated page showcases the company's artistic range through visual media, featuring professional photographs of performances, workshops, and student showcases.
-- **Value to the User:** This section is vital for building credibility and visual excitement. It allows users—especially prospective clients and event planners—to easily see the high-quality, professional standard of the dancers and the company's vibrant style before they commit to booking a class or requesting a quote.
+ - This dedicated page showcases the company's artistic range through visual media, featuring professional photographs of performances, workshops, and student showcases.
+ - **Value to the User:** This section is vital for building credibility and visual excitement. It allows users—especially prospective clients and event planners—to easily see the high-quality, professional standard of the dancers and the company's vibrant style before they commit to booking a class or requesting a quote.
 
 
 
