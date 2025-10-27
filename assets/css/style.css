@@ -98,7 +98,7 @@ h2 {
     margin: auto;
 }
 
-/* Class Schedule Table Styles */
+/* Table Styles */
 .instructor {
     display: none;
 }
@@ -118,7 +118,6 @@ h2 {
 
 
 /* Footer Styles*/
-
 #footer li {
     color: var(--color-text);
 }
