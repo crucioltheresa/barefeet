@@ -70,17 +70,19 @@ column and set a minimum height to stretch the page body to the full height of t
             <form class="row g-3" action="success-booking.html" method="GET">
                 <div class="col-12">
                     <label for="inputName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control bg-dark text-white border-0" id="inputName" required>
+                    <input type="text" class="form-control bg-dark text-white border-0" id="inputName" name="inputName"
+                        required>
                 </div>
                 <div class="col-md-6">
                     <label for="inputEmail" class="form-label">Email</label>
-                    <input type="email" class="form-control bg-dark text-white border-0" id="inputEmail" required>
+                    <input type="email" class="form-control bg-dark text-white border-0" id="inputEmail"
+                        name="inputEmail" required>
                 </div>
                 <div class="col-md-6">
                     <label for="selectLevel" class="form-label">Your Current Experience Level</label>
-                    <select name="selectLevel" id="selectLevel" class="form-select bg-dark text-white border-0"
+                    <select id="selectLevel" class="form-select bg-dark text-white border-0" name="selectLevel"
                         required>
-                        <option value="" disabled selected>Choose the level that best describes you...</option>
+                        <option value="" disabled selected>Choose the level that best describes you</option>
                         <option value="beginner">Beginner (Never danced before)</option>
                         <option value="basic">Basic (Some previous classes/workshops)</option>
                         <option value="intermediate">Intermediate (Know basic movements and technique)</option>

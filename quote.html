@@ -61,7 +61,106 @@ column and set a minimum height to stretch the page body to the full height of t
         </div>
     </nav>
 
-    <main></main>
+    <main>
+        <div class="col-lg-8 col-md-10 container section mt-3 mb-3">
+            <h2 class="text-center mb-4">Request a Performance Quote</h2>
+            <p class="text-center mb-4">Tell us about your event so we can prepare a dazzling, customized
+                proposal.</p>
+            <form action="success-quote.html" method="GET">
+                <div class="row g-3">
+                    <div class="col-12">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" class="form-control bg-dark text-white border-0" id="inputName"
+                            name="inputName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control bg-dark text-white border-0" id="inputEmail"
+                            name="inputEmail" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control bg-dark text-white border-0" id="inputNumber"
+                            name="inputNumber" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        <label for="eventDate" class="form-label">Date of Event</label>
+                        <input type="date" class="form-control  bg-dark text-white border-0" id="eventDate"
+                            name="eventDate" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="eventType" class="form-label">Type of Event</label>
+                        <select class="form-select bg-dark text-white border-0" id="eventType" name="eventType"
+                            required>
+                            <option value="" disabled selected>Select event type</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="corporate">Corporate Gala/Dinner</option>
+                            <option value="festival">Festival or Public Event</option>
+                            <option value="privateParty">Private Birthday/Celebration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col-md-6 mb-3">
+                        <label for="numberDancers" class="form-label">Number of Dancers Required</label>
+                        <select class="form-select bg-dark text-white border-0" id="numberDancers" name="numberDancers"
+                            required>
+                            <option value="" disabled selected>Select number of dancers</option>
+                            <option value="1">1 Dancer (Solo)</option>
+                            <option value="2">2 Dancers (Duet)</option>
+                            <option value="3+">3 or More Dancers (Troupe)</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="eventDuration" class="form-label">Performance Duration</label>
+                        <select class="form-select bg-dark text-white border-0" id="eventDuration" name="eventDuration"
+                            required>
+                            <option value="" disabled selected>Select event duration</option>
+                            <option value="15min">Up to 15 minutes</option>
+                            <option value="30min">Up to 30 minutes</option>
+                            <option value="60min">Multiple sets (Total 60+ minutes)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="eventLocation" class="form-label">Event Location / Venue Name</label>
+                    <textarea class="form-control bg-dark text-white border-0 placeholder-custom" id="eventLocation"
+                        name="eventLocation" rows="2"
+                        placeholder="Venue name and full address for calculation of travel costs." required></textarea>
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label d-block">Performance Space Type</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input bg-dark text-white border-0" type="radio" name="spaceType"
+                            id="indoor" value="indoor" required>
+                        <label class="form-check-label" for="indoor">Indoor Venue</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input bg-dark text-white border-0" type="radio" name="spaceType"
+                            id="outdoor" value="outdoor">
+                        <label class="form-check-label" for="outdoor">Outdoor / Tent</label>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <label for="specialRequests" class="form-label">Special Requests (Theme, Music, Costumes)</label>
+                    <textarea class="form-control bg-dark text-white border-0 placeholder-custom" id="specialRequests"
+                        name="specialRequests" rows="3" placeholder="Tell us your vision!"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit" class="btn btn-custom-outline">
+                        Submit Quote Request
+                    </button>
+                </div>
+            </form>
+    </main>
 
     <!-- Footer / Contact Section -->
     <footer id="contact" class="bg-dark container py-1 my-2 mt-auto">
